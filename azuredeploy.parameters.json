@@ -3,19 +3,19 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "virtualNetworkResourceGroup": {
-            "value": "eu-vdc-vnet"
+            "value": "uks-pfsense-vnet-rg"
         },
         "pfSenseResourceGroup": {
-            "value": "eu-firewalls-rg"
+            "value": "uks-pfsense-firewall-rg"
         },
         "managementVmResourceGroup": {
-            "value": "eu-firewall-management-rg"
+            "value": "uks-pfsense-management-rg"
         },
         "location": {
-            "value": "West Europe"
+            "value": "UK South"
         },
         "vNetName": {
-            "value": "eu-vdc-vnet"
+            "value": "uks-pfsense-vnet"
         },
         "vNetAddressPrefix": {
             "value": "10.0.0.0/24"
@@ -51,13 +51,13 @@
             "value": "Linux"
         },
         "managedDiskName": {
-            "value": "eu-pfsense-1-os"
+            "value": "uks-pfsense-pfsense-1-os"
         },
         "frontEndNicName": {
-            "value": "eu-pfsense-1-frontend-nic"
+            "value": "uks-pfsense-pfsense-1-frontend-nic"
         },
         "backEndNicName": {
-            "value": "eu-pfsense-1-backend-nic"
+            "value": "uks-pfsense-pfsense-1-backend-nic"
         },
         "frontEndIp": {
             "value": "10.0.0.36"
@@ -66,22 +66,22 @@
             "value": "10.0.0.68"
         },
         "vmName": {
-            "value": "eu-pfsense-1"
+            "value": "uks-pfsense-pfsense-1"
         },
         "vmSize": {
             "value": "Standard_B2s"
         },
         "managementVmName": {
-            "value": "eu-pfsense-mgmt"
+            "value": "uks-pfsense-pfsense-mgmt"
         },
         "managementVmNicName": {
-            "value": "eu-pfsense-mgmt-nic"
+            "value": "uks-pfsense-pfsense-mgmt-nic"
         },
         "managementVmOSDiskName": {
-            "value": "eu-pfsense-mgmt-os"
+            "value": "uks-pfsense-pfsense-mgmt-os"
         },
         "managementVmPublicIpAddressName": {
-            "value": "eu-pfsense-mgmt-pip"
+            "value": "uks-pfsense-pfsense-mgmt-pip"
         },
         "managementVmSize": {
             "value": "Standard_B2s"
