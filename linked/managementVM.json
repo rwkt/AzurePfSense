@@ -20,7 +20,13 @@
                 "description": "The name for the management virtual machine nic"
             }
         },
-        "managementVmAdminUserName": {
+        "managementVmComputerName": {
+            "type": "string",
+            "metadata": {
+                "description": "The computer name of the management virtual machine"
+            }
+        },
+		"managementVmAdminUserName": {
             "type": "string",
             "metadata": {
                 "description": "The admin user name of the management virtual machine"
@@ -140,7 +146,7 @@
                     "vmSize": "[parameters('managementVmSize')]"
                 },
                 "osProfile": {
-                    "computername": "[parameters('managementVmComputerName')]",
+                    "computerName": "[parameters('managementVmComputerName')]",
                     "adminUsername": "[parameters('managementVmAdminUserName')]",
                     "adminPassword": "[parameters('managementVmAdminPassword')]"
                 },

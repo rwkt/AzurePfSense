@@ -81,7 +81,7 @@
             "metadata": {
                 "description": "Path to the repository where the linked templates can be found"
             },
-            "defaultValue": "https://raw.githubusercontent.com/christofvg/AzurePfSense/master/linked/"
+            "defaultValue": "https://raw.githubusercontent.com/rwkt/AzurePfSense/master/linked/"
         },
         "managedDiskStorageType": {
             "type": "string",
@@ -170,7 +170,13 @@
                 "description": "Name for the management virtual machine nic"
             }
         },
-        "managementVmAdminUserName": {
+        "managementVmComputerName": {
+            "type": "string",
+            "metadata": {
+                "description": "Management virtual machine computer name"
+            }
+        },
+		"managementVmAdminUserName": {
             "type": "string",
             "metadata": {
                 "description": "Management virtual machine username"
@@ -406,6 +412,9 @@
                     },
                     "managementVmNicName": {
                         "value": "[parameters('managementVmNicName')]"
+                    },
+					"managementVmComputerName": {
+                        "value": "[parameters('managementVmComputerName')]"
                     },
                     "managementVmAdminUserName": {
                         "value": "[parameters('managementVmAdminUserName')]"

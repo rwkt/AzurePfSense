@@ -79,6 +79,7 @@ All parameters are passed to the 'main' ARM template azuredeploy.json. They are 
 [string]managementVmName: Name for the management virtual machine  
 [string]publicIpAddressName(managementVmPublicIpAddressName): Name for the management virtual machine public ip address  
 [string]managementVmNicName: Name for the management virtual machine nic  
+[string]managementVmComputerName: Management virtual machine computer name  
 [string]managementVmAdminUserName: Management virtual machine username  
 [string]managementVmPassword: Management virtual machine password  
 [string]managementVmDiskType: Management virtual machine virtual disk type  
