@@ -140,7 +140,7 @@
                     "vmSize": "[parameters('managementVmSize')]"
                 },
                 "osProfile": {
-                    "computername": "[parameters('managementVmName')]",
+                    "computername": "[parameters('managementVmComputerName')]",
                     "adminUsername": "[parameters('managementVmAdminUserName')]",
                     "adminPassword": "[parameters('managementVmAdminPassword')]"
                 },
