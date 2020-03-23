@@ -51,13 +51,13 @@
             "value": "Linux"
         },
         "managedDiskName": {
-            "value": "uks-pfsense-pfsense-1-os"
+            "value": "uks-pfsense-1-os"
         },
         "frontEndNicName": {
-            "value": "uks-pfsense-pfsense-1-frontend-nic"
+            "value": "uks-pfsense-1-frontend-nic"
         },
         "backEndNicName": {
-            "value": "uks-pfsense-pfsense-1-backend-nic"
+            "value": "uks-pfsense-1-backend-nic"
         },
         "frontEndIp": {
             "value": "10.0.0.36"
@@ -66,22 +66,22 @@
             "value": "10.0.0.68"
         },
         "vmName": {
-            "value": "uks-pfsense-pfsense-1"
+            "value": "uks-pfsense-1"
         },
         "vmSize": {
             "value": "Standard_B2s"
         },
         "managementVmName": {
-            "value": "uks-pfsense-pfsense-mgmt"
+            "value": "uks-pfsense-mgmt"
         },
         "managementVmNicName": {
-            "value": "uks-pfsense-pfsense-mgmt-nic"
+            "value": "uks-pfsense-mgmt-nic"
         },
         "managementVmOSDiskName": {
-            "value": "uks-pfsense-pfsense-mgmt-os"
+            "value": "uks-pfsense-mgmt-os"
         },
         "managementVmPublicIpAddressName": {
-            "value": "uks-pfsense-pfsense-mgmt-pip"
+            "value": "uks-pfsense-mgmt-pip"
         },
         "managementVmSize": {
             "value": "Standard_B2s"
